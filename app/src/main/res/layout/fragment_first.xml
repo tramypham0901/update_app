@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/attendImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_timetable_foreground" />
+
+        <TextView
+            android:id="@+id/textViewAttend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TKB" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/attendanceImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/attendance"
+            app:srcCompat="@android:drawable/ic_menu_today" />
+
+        <TextView
+            android:id="@+id/textViewAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attendance" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/chatImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/stat_notify_chat" />
+
+        <TextView
+            android:id="@+id/textViewChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/postImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_post_foreground" />
+
+        <TextView
+            android:id="@+id/textViewPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:text="Bài viết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/markImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_mark_foreground" />
+
+        <TextView
+            android:id="@+id/textViewMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mark" />
+    </LinearLayout>
+
+</FrameLayout>

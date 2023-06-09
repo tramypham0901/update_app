@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linear_mark_list">
+
+    <TextView
+        android:id="@+id/text_subject"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Mon hoc"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_half_mark"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/text_subject"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:text="10"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/text_mark"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/text_half_mark"
+        android:layout_marginStart="25dp"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_feedback"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/text_mark"
+        android:gravity="center"
+        android:text="Danh gia"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

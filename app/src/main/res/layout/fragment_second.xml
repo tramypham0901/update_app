@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/chatImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/stat_notify_chat" />
+
+        <TextView
+            android:id="@+id/textViewChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/postImgBtn"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_post_foreground" />
+
+        <TextView
+            android:id="@+id/textViewPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:text="Bài viết" />
+    </LinearLayout>
+
+</FrameLayout>

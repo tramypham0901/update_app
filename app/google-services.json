@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974864000869",
+    "project_id": "contact-book-chat-57229",
+    "storage_bucket": "contact-book-chat-57229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974864000869:android:267d4a414ee04a150a638c",
+        "android_client_info": {
+          "package_name": "com.example.contactbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974864000869-8414ij1416f3no0psg9q4l9pr14v8jr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTgaRr6qmjVJcLZ98u3OnHMhPqNlQxnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974864000869-8414ij1416f3no0psg9q4l9pr14v8jr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
